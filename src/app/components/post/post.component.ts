@@ -19,7 +19,7 @@ export class PostComponent implements OnInit {
   }
 
   deletePost() {
-		this.deleted.emit(this.post); // deletes 
+		this.deleted.emit(); // deletes 
 	}
   
   onDelete() {
