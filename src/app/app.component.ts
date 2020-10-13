@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Post } from '../app/interfaces/Post';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SocialPosts';
+  isHidden = true;
+
+  doHidden() {
+    this.isHidden = !this.isHidden;
+  }
 }

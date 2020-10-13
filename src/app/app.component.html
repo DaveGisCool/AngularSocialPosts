@@ -1,1 +1,12 @@
-<h1>My Thoughts</h1>
+<h1 class = "center">My Thoughts</h1>
+
+<button (click) = "doHidden()" class = "btn"> New Thought </button>
+
+<br />
+
+<app-post-form [ngClass]="{'hidden':isHidden}"></app-post-form>
+
+<br />
+
+<app-social-posts></app-social-posts>
+

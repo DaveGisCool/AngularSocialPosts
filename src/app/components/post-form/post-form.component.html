@@ -1,1 +1,10 @@
-<p>post-form works!</p>
+<div 
+    style = "border: 1px solid;"
+    > 
+    <h4>Title</h4>
+    <input [(ngModel)]="title" type="text" class = "field" /><br />
+    <h4>Thought</h4>
+    <input [(ngModel)]="thought" type="text" class = "field" /><br />
+    <br />
+    <button (click) = "submitPost()" class = "btn"> Add Post </button>
+</div>

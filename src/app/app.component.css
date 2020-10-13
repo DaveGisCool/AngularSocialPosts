@@ -1,0 +1,16 @@
+.center {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+.hidden {
+    display: none;
+}
+
+.btn {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}

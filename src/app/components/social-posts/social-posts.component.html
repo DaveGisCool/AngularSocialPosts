@@ -1,1 +1,3 @@
-<p>social-posts works!</p>
+<div>
+<app-post *ngFor="let post of posts" (deleted)="onDelete($event)" [post]="post"></app-post>
+</div>
